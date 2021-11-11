@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tradição de Minas</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <table border="0" align="center">
+      <tr>
+        <td><h1>Tradição de Minas</h1></td>
+        <td rowspan="2">
+          <img width="50%" height="50%"
+          src="https://imagens-revista.vivadecora.com.br/uploads/2020/06/Receita-de-p%C3%A3o-de-queijo-f%C3%A1cil-e-r%C3%A1pida-para-fazer-na-cozinha.-Fonte-Pinterest.jpeg"/></td>
+      </tr>
+      <tr>
+        <td><center>
+          <img width="50%" height="50%" src="https://vetus.com.br/universidade/wp-content/uploads/2017/11/promo%C3%A7%C3%A3o-02.png"/></center></td></tr>
+    </table>
+    <h1> Formulário para Clientes</h1>
+    <p> Prencha os dados para que possamos enviar maiores informações sobre preços, promoções e novos produtos para degustação:</p>
+    <form action="script.js" method="post" target="blank">
+              Nome: <input type = "text " name="Nome" size="40" value="Digite seu primeiro nome"/n>
+              Sobrenome: <input type = "text" name="Sobrenome" size="35" value="Digite o seu último nome"/> <br>
+              Endereço: <br>
+                Logradouro: <input type="text"name="Logradouro" size="30"/>
+                Número: <input type = "number " name="Numero" size="10"/>
+                Complemento: <input type = "text " name="complemento" size="20"/>
+                Bairro: <input type = "text " name="bairro" size="25"/>
+                Cidade: <input type = "text " name="cidade" size="25"/>
+                  <select id="UF" > <option VALUE=""> Selecione</option>
+                    <option VALUE="AC"> AC </option>
+                    <option VALUE="AL"> AL</option>
+                    <option VALUE="MG"> MG </option>
+                    <option VALUE="MT"> MT</option>
+                    <option VALUE="RS"> RS</option>
+                    <option VALUE="SP"> SP</option>
+                    <option VALUE="BA"> BA</option>
+                    <option VALUE="CE"> CE</option>
+                  </select>
+                CEP: <input type = "number " name="CEP" size="9"/>
+                Celular: <input type = "number " name="celular" size="3" Value="DDD"/> -
+                <input type = "celular " name="celular" pattern="9[0-9]{4}-[0-9]{4}"/>
+                E-mail: <input type = "email " name="email" value="Digite seu e-mail" size="40"/> <br><br>
+        <p> Escolha os itens que você gostaria de receber infomações:</p>
+          <input type= "checkbox" nome "Pão de Queijo"/> Pão de Queijo
+          <input type= "checkbox" nome "Biscoito de Queijo"/> Biscoito de Queijo
+          <input type= "checkbox" nome "Receita"/> Receita
+          <input type= "checkbox" nome "Novos Produtos"/> Novos Produtos
+          <input type= "checkbox" nome "Descontos"/> Descontos para maiores quantidades
+          <input type= "checkbox" nome "Outros"/> Outros: <input type ="text" name= "outros" value="Digite aqui."/>
+        <p> Você gosta dos produtos que a Tradição de Minas oferece?</p> 
+          <input type="radio"name="gosta"/> Sim.
+          <input type ="radio" name ="gosta"/> Não.
+        <br><br>
+          <textarea cols="100%" rows="5" name="mensagem" align="center" >
+            Digite aqui sua mensagem, se precisar de mais informações.
+          </textarea>
+        <br><br>
+        <table border="1" bordercolor= "#008000" bgcolor= "#a0522d" align="center" >
+          <tr>
+          <td> <center><input type="reset" value="Limpar"/></center></td>
+          <td><center><input type="submit" value="Enviar"/></center></td>
+         </tr>
+        </table>
+    </form>
+  </body>
+</html>

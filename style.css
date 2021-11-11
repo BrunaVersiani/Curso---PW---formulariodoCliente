@@ -1,0 +1,19 @@
+body{
+  background-color: #f5f5Dc;
+  color: #a0522d;
+  font-family: tahoma;
+  font-size: 12px;
+  text-align: justify;
+  /* background-color: #add8e6;
+  color: 128,0,128;
+  color: #a0522d;*/
+}
+h1,h2,h3{
+  text-align: center;
+  color: #a0522d;
+}
+p{
+  text-align: justify;
+  /*color: #0000ff;
+  color: #808000;*/
+}
